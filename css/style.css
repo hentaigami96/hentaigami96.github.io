@@ -3,7 +3,7 @@
     margin: 0;
     border: 0;
     font-family: '源真ゴシックPL';
-    font-size: 10px;
+    font-size: 12px;
     }
 
 @font-face{
@@ -19,6 +19,7 @@
 h1{
     background: #64aaf0;
     font-family: '源真ゴシックPR';
+    font-size: 18px;
 }
 
 p{
