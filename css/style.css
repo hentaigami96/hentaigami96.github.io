@@ -20,3 +20,8 @@ h1{
     background: #64aaf0;
     font-family: '源真ゴシックR';
 }
+
+p{
+    background: #ff8000;
+    color: white;
+}
