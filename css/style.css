@@ -2,23 +2,23 @@
     padding: 0;
     margin: 0;
     border: 0;
-    font-family: '源真ゴシックL';
+    font-family: '源真ゴシックPL';
     font-size: 10px;
     }
 
 @font-face{
-    font-family: '源真ゴシックL';
-    src: url('../fonts/genshingothic-20150607/GenShinGothic-Light.ttf') format('OpenType');
+    font-family: '源真ゴシックPL';
+    src: url('../fonts/genshingothic-20150607/GenShinGothic-P-Light.ttf') format('OpenType');
 }
 
 @font-face{
-    font-family: '源真ゴシックR';
-    src: url('../fonts/genshingothic-20150607/GenShinGothic-Regular.ttf') format('OpenType');
+    font-family: '源真ゴシックPR';
+    src: url('../fonts/genshingothic-20150607/GenShinGothic-P-Regular.ttf') format('OpenType');
 }
 
 h1{
     background: #64aaf0;
-    font-family: '源真ゴシックR';
+    font-family: '源真ゴシックPR';
 }
 
 p{
