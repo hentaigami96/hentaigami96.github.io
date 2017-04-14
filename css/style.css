@@ -16,10 +16,6 @@
     src: url('../fonts/genshingothic-20150607/GenShinGothic-Regular.ttf') format('OpenType');
 }
 
-p{
-    font-size: 20px;
-}
-
 h1{
     background: #64aaf0;
     font-family: '源真ゴシックR';
