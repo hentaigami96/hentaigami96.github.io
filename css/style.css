@@ -42,8 +42,7 @@ nav #menu > li > a{
 	text-align: center;
 	line-height: 2em;
 	text-decoration: none;
-	color: #3e3e3e;
-	
+	color: #282828;
 	border-left: #800080 5px solid;
 	border-bottom: #800080 2px solid;
 }
