@@ -26,8 +26,9 @@ nav #menu{
 	width: 100%;
 	height: 2em;
 }
+
 nav #menu > li{
-	background: #eb8a56;
+	background: white;
 	width: 20%;
 	height: 100%;
 	display: block;
@@ -41,9 +42,14 @@ nav #menu > li > a{
 	text-align: center;
 	line-height: 2em;
 	text-decoration: none;
+	color: #3e3e3e;
+	
+	border-left: #800080 5px solid;
+	border-bottom: #800080 2px solid;
 }
 
 nav #menu > li > a:hover{
-	background: #8080ff;
+	background: #e600e6;
+	color: white;
 
 }
