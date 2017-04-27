@@ -35,11 +35,11 @@ header #title{
 
 header #title h1{
   font-family: '源真ゴシックPR';
-  font-size: 24px;
 }
 
 header #title h1 > a{
   text-decoration: none;
+  font-size: 2.5em;
 }
 
 header #title h2{
@@ -66,6 +66,7 @@ nav #menu > li{
   height: 100%;
   display: block;
   float: left;
+
 }
 
 nav #menu > li > a{
@@ -77,8 +78,10 @@ nav #menu > li > a{
   line-height: 2em;
   text-decoration: none;
   color: #282828;
-  border-left: #800080 5px solid;
-  border-bottom: #800080 2px solid;
+  display: table;
+  border-collapse: collapse;
+  border-left: #800080 0.32em solid;
+  border-bottom: #800080 0.1em solid;
 }
 
 nav #menu > li > a:hover{
@@ -87,8 +90,6 @@ nav #menu > li > a:hover{
 
 }
 
-
-
 contents {
   margin: 1em;
   word-break: break-all;
@@ -96,10 +97,10 @@ contents {
 contents section {
   border-radius: 1em;
   border: #e600e6 0.3em solid;
-
 }
 contents h1 {
-  background: #faf;
+  color: white;
+  background: #e600e6;
   font-size: 2rem;
   border-bottom: #e600e6 0.1em solid;
   text-align: center;
@@ -108,7 +109,7 @@ contents h1 {
 contents h2 {
   font-size: 1.5rem;
   border-top: purple 0.01em solid;
-  border-left: purple 0.15em solid;
+  border-left: purple 0.3em solid;
   border-bottom: purple 0.1em dashed;
 
   padding-left: 0.5em;
@@ -116,4 +117,16 @@ contents h2 {
 
 contents p {
   padding: 0.5em 1.65em 0.5em 1.65em;
+}
+
+contents h3{
+  border-bottom: purple 0.01em solid;
+}
+
+contents ul{
+  margin-left: 2em;
+}
+
+contents ul ul{
+  margin-left: 1em;
 }
