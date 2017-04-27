@@ -1,54 +1,119 @@
 *{
-	padding: 0;
-	margin: 0;
-	border: 0;
-	font-family: '源真ゴシックPL';
-	font-size: 12px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: '源真ゴシックPL';
+  font-size: 16px;
+  color: #282828;
+}
+
+/* フォント登録 */
+@font-face{
+  font-family: '源真ゴシックPL';
+  src: url('../fonts/genshingothic-20150607/GenShinGothic-P-Light.ttf') format('OpenType');
 }
 
 @font-face{
-	font-family: '源真ゴシックPL';
-	src: url('../fonts/genshingothic-20150607/GenShinGothic-P-Light.ttf') format('OpenType');
+  font-family: '源真ゴシックPR';
+  src: url('../fonts/genshingothic-20150607/GenShinGothic-P-Regular.ttf') format('OpenType');
 }
 
-@font-face{
-	font-family: '源真ゴシックPR';
-	src: url('../fonts/genshingothic-20150607/GenShinGothic-P-Regular.ttf') format('OpenType');
+html{
+  width: 95%;
+  margin: auto;
 }
 
-h1{
-	background: #64aaf0;
-	font-family: '源真ゴシックPR';
-	font-size: 24px;
+/* Header共通 */
+
+header{
+  width: 100%;
+  background: #64aaf0;
+}
+header #title{
+  width: 100%;
 }
 
+header #title h1{
+  font-family: '源真ゴシックPR';
+  font-size: 24px;
+}
+
+header #title h1 > a{
+  text-decoration: none;
+}
+
+header #title h2{
+  font-size: 0.8rem;
+  width: 20%;
+  padding: 1ex 0 0.5ex 0;
+  background: white;
+  border-radius: 1em 1em 0 0;
+  text-align: center;
+  margin-left: auto;
+}
+
+
+/* メニューバー系 */
 nav #menu{
-	width: 100%;
-	height: 2em;
+  width: 100%;
+  height: 2em;
+  margin: auto;
 }
 
 nav #menu > li{
-	background: white;
-	width: 20%;
-	height: 100%;
-	display: block;
-	float: left;
+  background: white;
+  width: 20%;
+  height: 100%;
+  display: block;
+  float: left;
 }
 
 nav #menu > li > a{
-	width: 100%;
-	height: 100%;
-	display: block;
-	text-align: center;
-	line-height: 2em;
-	text-decoration: none;
-	color: #282828;
-	border-left: #800080 5px solid;
-	border-bottom: #800080 2px solid;
+  width: 100%;
+  height: 100%;
+  background: #ffaaff;
+  display: block;
+  text-align: center;
+  line-height: 2em;
+  text-decoration: none;
+  color: #282828;
+  border-left: #800080 5px solid;
+  border-bottom: #800080 2px solid;
 }
 
 nav #menu > li > a:hover{
-	background: #e600e6;
-	color: white;
+  background: #e600e6;
+  color: white;
 
+}
+
+
+
+contents {
+  margin: 1em;
+  word-break: break-all;
+}
+contents section {
+  border-radius: 1em;
+  border: #e600e6 0.3em solid;
+
+}
+contents h1 {
+  background: #faf;
+  font-size: 2rem;
+  border-bottom: #e600e6 0.1em solid;
+  text-align: center;
+}
+
+contents h2 {
+  font-size: 1.5rem;
+  border-top: purple 0.01em solid;
+  border-left: purple 0.15em solid;
+  border-bottom: purple 0.1em dashed;
+
+  padding-left: 0.5em;
+}
+
+contents p {
+  padding: 0.5em 1.65em 0.5em 1.65em;
 }
